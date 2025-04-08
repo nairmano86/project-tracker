@@ -1,0 +1,100 @@
+/* index.css */
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Links */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0070f3;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Inputs & Forms */
+input, select, textarea {
+  font-family: inherit;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* Card style */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
